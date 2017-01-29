@@ -22,4 +22,13 @@ The script needs the following command line programs to be installed on your mac
 # How to Use
 
 * Execute `curl -s https://raw.githubusercontent.com/haxpor/basejit-cli/master/basejit-cli.sh | bash -s myLib MyLib` then it will do all the work for you.
-   Note that `myLib` is your project name, and `MyLib` is your exported name of the project which will be used when you refer it in code.
+   > Note that `myLib` is your project name, and `MyLib` is your exported name of the project which will be used when you refer it in code.
+* Execute `npm test` to test the project set up. You should see all tests are passed.
+* Start your project development.
+   * Start thing off via `./src/core/core.js` and `./src/core/core.util.js`. Those files have some minimal code, modify it freely.
+   * There are already initial testing code in `./test/_core.test.js` and `./test/mockContext.js`. Modify it freely.
+   * `package.json` can be freely modified to match your package information to be ready for publish later.
+
+# More information?
+
+If you need more information, see [basejit](https://github.com/haxpor/basejit) project for more information of what it can do and offers.
