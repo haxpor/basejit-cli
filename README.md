@@ -21,7 +21,7 @@ The script needs the following command line programs to be installed on your mac
 
 # How to Use
 
-* Execute `curl -s https://raw.githubusercontent.com/haxpor/basejit-cli/master/basejit-cli.sh | bash -s myLib MyLib` then it will do all the work for you.
+* Execute `curl -s https://raw.githubusercontent.com/haxpor/basejit-cli/master/basejit-cli.sh | bash -s myLib MyLib` then it will do all the work for you.  
    > Note that `myLib` is your project name, and `MyLib` is your exported name of the project which will be used when you refer it in code.
 * Execute `npm test` to test the project set up. You should see all tests are passed.
 * Start your project development.
