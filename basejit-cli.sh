@@ -35,6 +35,8 @@ find ./test -type f -name "*.js" -exec sed -i '' "s/Basejit/$EXPORTED_NAME/g" {}
 find ./gulpfile.js -exec sed -i '' "s/basejit/$PROJ_NAME/g" {} +
 find ./gulpfile.js -exec sed -i '' "s/Basejit/$EXPORTED_NAME/g" {} +
 find ./package.json -exec sed -i '' "s/basejit/$PROJ_NAME/g" {} +
+find ./index.html -exec sed -i '' "s/basejit/$PROJ_NAME/g" {} +
+find ./index.html -exec sed -i '' "s/Basejit/$EXPORTED_NAME/g" {} +
 
 # replace content of README.md file
 echo "# $PROJ_NAME 
