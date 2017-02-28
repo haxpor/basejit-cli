@@ -43,7 +43,7 @@ echo "# $PROJ_NAME
 <project description here>
 
 # Misc
-This project is based on [https://github.com/haxpor/basejit](https://github.com/haxpor/basejit)" > README.md
+This project is based on [basejit](https://github.com/haxpor/basejit)" > README.md
 
 # rename file with basejit.js to $PROJ_NAME.js
 mv ./src/$BASEJIT_BASE.js ./src/$PROJ_NAME.js
